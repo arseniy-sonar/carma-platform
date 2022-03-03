@@ -34,7 +34,7 @@
 # /////////////////////////////////////////////////////////////////////////////
 
 #FROM usdotfhwastoldev/autoware.ai:develop AS base-image
-FROM docker pull usdotfhwastoldev/autoware.ai AS base-image
+FROM usdotfhwastoldev/autoware.ai AS base-image
 FROM base-image AS source-code
 
 RUN mkdir ~/src
