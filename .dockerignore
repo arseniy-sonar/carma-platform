@@ -2,7 +2,7 @@
 # Any files mentioned here will not trigger Docker to force an image reuild
 # if they change
 
-.cache
+#.cache
 
 **/*.class
 *.bak
